@@ -44,6 +44,7 @@ type sensors_vendor_data_file, file_type, data_file_type;
 type sysfs_audio, fs_type, sysfs_type;
 type audio_vendor_data_file, file_type, data_file_type;
 type vendor_tui_data_file, file_type, data_file_type;
+type sysfs_battery_supply, sysfs_type, fs_type;
 
 type ssr_log_file, file_type, data_file_type;
 typeattribute mnt_vendor_file vendor_persist_type;
