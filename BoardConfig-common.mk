@@ -19,6 +19,7 @@ include build/make/target/board/BoardConfigPixelCommon.mk
 
 TARGET_BOARD_PLATFORM := lito
 USES_DEVICE_GOOGLE_REDBULL := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
