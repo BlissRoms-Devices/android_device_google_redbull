@@ -27,10 +27,10 @@ AB_OTA_PARTITIONS += \
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # Reserve space for gapps install
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/bliss/config/BoardConfigReservedSize.mk
 
 # SELinux
-include device/lineage/sepolicy/libion/sepolicy.mk
+include device/bliss/sepolicy/libion/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/dynamic
 BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/vendor
 
